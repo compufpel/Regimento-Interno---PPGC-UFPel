@@ -9,6 +9,13 @@
 
 \titleformat{\section}{\normalfont\scshape}{Capítulo \Roman{section}}{1em}{}
 
+\setlist[enumerate,1]{label=Art. \theenumi,resume}
+
+\setlist[enumerate,2]{label=§ \arabic*$^{\circ}$.,align=left}
+
+\newcommand{\singleitem}{\item[Parágrafo Único.]}
+
+
 \title{Regimento PPGC}
 
 \begin{document}
@@ -18,7 +25,7 @@
 \section{Das finalidades}
 
 
-\begin{enumerate}%[label=Art. \thesection]
+\begin{enumerate}
 \item O Programa de Pós-Graduação em Computação da Universidade Federal de Pelotas, neste documento referenciado por PPGC ou simplesmente por Programa, em nível de Mestrado e Doutorado, tem por finalidade a formação de recursos humanos para o ensino e pesquisa capazes de realizar projetos de investigação científica, incluindo aspectos de planejamento, delineamento, execução, análise e publicação, contribuindo com o avanço do conhecimento científico e tecnológico em Computação.
 \end{enumerate}
 
@@ -27,13 +34,14 @@
 
 \begin{enumerate}
 	\item O PPGC é administrado pelo Colegiado do Programa, presidido pelo Coordenador do Programa. Na sua ausência do Coordenador, preside o Colegiado:
-	\begin{enumerate}
+	\begin{enumerate}[label=\Roman*]
 		\item O Coordenador Adjunto do Programa;
 		\item O membro mais antigo na Instituição pertencente ao Colegiado do Programa.
-		\begin{enumerate}
-			\item O Colegiado do PPGC é o seu órgão máximo de deliberação, sendo a Câmara de Pós-Graduação ``Stricto Sensu'' da Pró-reitoria de Pesquisa e Pós-Graduação desta Universidade o órgão imediatamente superior.
-		\end{enumerate}
 	\end{enumerate}
+	\begin{enumerate}
+		\singleitem O Colegiado do PPGC é o seu órgão máximo de deliberação, sendo a Câmara de Pós-Graduação ``Stricto Sensu'' da Pró-reitoria de Pesquisa e Pós-Graduação desta Universidade o órgão imediatamente superior.
+	\end{enumerate}
+
 \end{enumerate}
 
 
@@ -71,7 +79,7 @@
 
 	\item O Colegiado de Programa de Pós-Graduação reunir-se-á, quando convocado pelo Coordenador ou por, no mínimo, metade dos seus membros.
 	\begin{enumerate}
-		\item O Colegiado do Programa só se reunirá com a presença da maioria de seus membros
+		\singleitem O Colegiado do Programa só se reunirá com a presença da maioria de seus membros
 	\end{enumerate}
 
 	\item O Colegiado do Programa deliberará por maioria simples de votos dos membros presentes.
@@ -120,7 +128,7 @@
 	% Acho que o item abaixo tem que ir para a Da Administração do Programa e esta seção se tornar "Atribuições da Coordenação"
 	\item O Programa terá um Coordenador que deverá ser membro do seu Colegiado e Docente da Universidade Federal de Pelotas, ser eleito pelo voto universal dos membros do Colegiado e de acordo com norma específica do Regimento Geral dos Cursos de Pós-Graduação ``Stricto Sensu'' desta Instituição.
 	\begin{enumerate}
-		\item O Coordenador terá mandato de dois anos e será permitida apenas uma recondução sucessiva ao cargo.
+		\singleitem O Coordenador terá mandato de dois anos e será permitida apenas uma recondução sucessiva ao cargo.
 	\end{enumerate}
 
 	\item Ao Coordenador de Programa, compete:
@@ -155,16 +163,19 @@
 	\end{enumerate}
 
 	\item Para efeito de credenciamento junto ao Programa, os docentes serão designados como:
-	\begin{enumerate}
+	\begin{enumerate}[label=\Roman*]
 		\item Permanentes – aqueles que atuam com preponderância no curso, de forma mais direta, intensa e contínua, constituindo o núcleo estável de docentes que desenvolvem as principais atividades de ensino, orientando dissertações e pesquisas do Programa.
 		\item Visitantes – identificados por estarem vinculados à própria Universidade Federal de Pelotas ou a outra instituição de Ensino Superior, no Brasil ou no Exterior, que permanecerem, durante um período contínuo e determinado, à disposição do Programa, contribuindo para o desenvolvimento das atividades acadêmico-científicas deste.
 		\item Colaboradores – aqueles que contribuem para o curso de forma complementar ou eventual, auxiliando no desenvolvimento de disciplinas, co-orientando dissertações, colaborando em projetos de pesquisa, sem que, todavia, tenham carga intensa e permanente no programa.
 	\end{enumerate}
 
-	\item Não pertencem ao Colegiado do Programa os professores Visitantes e Colaboradores. % Moot
+	\begin{enumerate}
+		\singleitem Não pertencem ao Colegiado do Programa os professores Visitantes e Colaboradores. % Moot
+	\end{enumerate}
+	
 
 	\item São atribuições dos docentes:
-	\begin{enumerate}
+	\begin{enumerate}[label=\Roman*]
 		\item	Ministrar aulas teóricas e práticas de disciplinas do Programa, de acordo com o programa vigente de cada Disciplina;
 		\item	Manter o Registro Acadêmico da Disciplina, bem como o Registro de Desempenho individual de cada Aluno nela inscrito;
 		\item	Atualizar o programa da disciplina a cada edição desta;
@@ -182,7 +193,9 @@
 		\item	Integrar o Colegiado do Curso.
 	\end{enumerate}
 
-	\item É assegurada ao Docente autonomia didática, nos termos da legislação vigente, do regimento da Universidade Federal de Pelotas e deste Regimento.
+	\begin{enumerate}
+		\singleitem É assegurada ao Docente autonomia didática, nos termos da legislação vigente, do regimento da Universidade Federal de Pelotas e deste Regimento.
+	\end{enumerate}
 
 \end{enumerate}
 
@@ -203,7 +216,7 @@
 	\end{enumerate}
 
 	\item  São atribuições do Professor Orientador:
-	\begin{enumerate}
+	\begin{enumerate}[label=\Roman*]
 		\item Elaborar, juntamente com o aluno, o Plano de Estudos a ser desenvolvido, incluindo disciplinas a serem cumpridas e Proposta de Dissertação ou Tese, e encaminhá-lo ao Colegiado, dentro dos prazos regulamentares;
 		\item	Indicar ao Colegiado o Comitê de Acompanhamento do aluno;
 		\item	Orientar o aluno no Plano de Estudos, desde sua concepção até a redação final;
@@ -273,7 +286,7 @@
 
 	\item Com a matrícula, o aluno assume o compromisso de submeter-se ao presente Regimento e aos demais Regimentos e Estatutos desta Instituição.
 	\begin{enumerate}
-		\item O aluno deve zelar pelo patrimônio do Programa e da Universidade e pelo uso dos recursos que lhe forem oferecidos apenas para fins acadêmicos.
+		\singleitem O aluno deve zelar pelo patrimônio do Programa e da Universidade e pelo uso dos recursos que lhe forem oferecidos apenas para fins acadêmicos.
 	\end{enumerate}
 \end{enumerate}
 
@@ -283,7 +296,7 @@
 	\item A unidade de integralização curricular será o Crédito, que corresponde a 17 horas aula, ou outras atividades definidas neste Regimento.
 	\item O Colegiado do Curso poderá aceitar o aproveitamento de créditos obtidos em disciplinas de outros cursos de Pós-Graduação Stricto Sensu, desde que estejam relacionados à área de formação do aluno no Programa.
 	\begin{enumerate}
-		\item O pedido de aproveitamento deverá ser encaminhado pelo aluno, com o parecer do Orientador. A equivalência das disciplinas cursadas em outros programas será julgada pelo Colegiado.
+		\singleitem O pedido de aproveitamento deverá ser encaminhado pelo aluno, com o parecer do Orientador. A equivalência das disciplinas cursadas em outros programas será julgada pelo Colegiado.
 	\end{enumerate}
 	\item Em cada disciplina, os mestrandos serão avaliados pelo Professor Responsável aplicando critérios previamente definidos, que poderão incluir um ou mais dos seguintes instrumentos: provas escritas, trabalhos escritos individuais ou em grupo, avaliações orais e participação em aulas (a qual inclui assiduidade, empenho e qualidade das contribuições do aluno). Com base nestes critérios, o Professor Responsável atribuirá a cada aluno um conceito variando de A a D.
 	\item O aproveitamento do aluno em cada disciplina será expresso pelos seguintes conceitos, correspondendo às respectivas classes:
@@ -299,8 +312,10 @@
 		\item T: trancamento - atribuído ao aluno que, com autorização do seu orientador e/ou com aprovação do Colegiado do Programa, tiver realizado o trancamento de matrícula;
 		\item P: aproveitamento de créditos - atribuído ao aluno que tenha obtido aproveitamento de créditos realizados em outro Programa.
 	\end{itemize}
-	\item Será considerado aprovado na Disciplina e terá direito a Crédito o aluno que obtiver um conceito A, B ou C.
-	\item Será reprovado sem direito a Crédito o aluno que obtiver o conceito D.
+	\begin{enumerate}
+		\item Será considerado aprovado na Disciplina e terá direito a Crédito o aluno que obtiver um conceito A, B ou C.
+		\item Será reprovado sem direito a Crédito o aluno que obtiver o conceito D.
+	\end{enumerate}
 
 	\item A avaliação do aproveitamento, ao término de cada período letivo, será feita por meio de média ponderada (coeficiente de rendimento), tomando-se como peso o número de créditos das disciplinas e atribuindo-se aos conceitos A, B, C, D os valores 4,0; 3,0; 2,0; e 0,0, respectivamente.
 
@@ -310,7 +325,7 @@
 	\end{enumerate}
 
 	\item Estará automaticamente desligado do Programa o aluno que se enquadrar em uma ou mais das seguintes situações:
-	\begin{enumerate}
+	\begin{enumerate}[label=\Roman*]
 		\item Obtiver coeficiente de rendimento inferior a 2,0 no seu primeiro período letivo;
 		\item Obtiver coeficiente de rendimento acumulado inferior a 2,5 no seu segundo período letivo e subseqüentes;
 		\item Obtiver coeficiente de rendimento acumulado inferior a 3,0 no seu terceiro período letivo e subseqüentes;
@@ -322,7 +337,7 @@
 
 	\item  Obrigatória a frequência a pelo menos 75\% das atividades da Disciplina.
 	\begin{enumerate}
-		\item Receberá conceito D na Disciplina o aluno que faltar a mais de 25\% das aulas.
+		\singleitem Receberá conceito D na Disciplina o aluno que faltar a mais de 25\% das aulas.
 	\end{enumerate}
 
 	\item O aluno para concluir seu curso deve ter aprovação nas Disciplinas Obrigatórias.
@@ -336,11 +351,11 @@
 \begin{enumerate}
 	\item A permanência mínima e máxima dos mestrandos no Programa de Mestrado será, respectivamente, de 12 meses e 30 meses, contados a partir da data da primeira matrícula.
 	\begin{enumerate}
-		\item Os prazos máximos estabelecidos neste Artigo poderão ser prorrogados excepcionalmente por até seis meses, por recomendação do Orientador, com aprovação do Colegiado, caso o Mestrando tenha cumprido todos os requisitos, exceto a apresentação da Dissertação.
+		\singleitem Os prazos máximos estabelecidos neste Artigo poderão ser prorrogados excepcionalmente por até seis meses, por recomendação do Orientador, com aprovação do Colegiado, caso o Mestrando tenha cumprido todos os requisitos, exceto a apresentação da Dissertação.
 	\end{enumerate}
 
 	\item Para solicitar a Defesa da Dissertação, o Mestrando deverá ter cumprido os seguintes pré-requisitos:
-	\begin{enumerate}
+	\begin{enumerate}[label=\Roman*]
 		\item Estar matriculado no Programa há pelo menos 12 meses;
 		\item 	Ter completado pelo menos 24 créditos, dois dos quais em Trabalho Individual I;
 		\item 	Ter tido uma Proposta de Dissertação de Mestrado aprovada;
@@ -351,7 +366,7 @@
 
 	\item Será exigido dos mestrandos proficiência em Língua Inglesa, a qual deverá obrigatoriamente ser apresentada até a quarta matrícula no Programa.
 	\begin{enumerate}
-		\item O Exame de Proficiência (competência) deverá ser realizado por entidade reconhecida pelo Colegiado do Programa.
+		\singleitem O Exame de Proficiência (competência) deverá ser realizado por entidade reconhecida pelo Colegiado do Programa.
 	\end{enumerate}
 
 	\item A redação e formatação da Dissertação deverão observar as normas estabelecidas pela Universidade Federal de Pelotas.
@@ -377,10 +392,11 @@
 \begin{enumerate}
 	\item  A permanência mínima e máxima dos doutorandos no curso de Doutorado será, respectivamente, de 24 meses e 54 meses, contados a partir da data da primeira matrícula.
 	\begin{enumerate}
-		\item Os prazos máximos estabelecidos neste Artigo poderão ser prorrogados excepcionalmente por até seis meses, por recomendação do Orientador, com aprovação do Colegiado, caso o Doutorando tenha cumprido todos os requisitos, exceto a apresentação da Tese.
+		\singleitem Os prazos máximos estabelecidos neste Artigo poderão ser prorrogados excepcionalmente por até seis meses, por recomendação do Orientador, com aprovação do Colegiado, caso o Doutorando tenha cumprido todos os requisitos, exceto a apresentação da Tese.
 	\end{enumerate}
+	
 	\item Para solicitar a Defesa da Tese, o doutorando deverá ter cumprido os seguintes pré-requisitos:
-	\begin{enumerate}
+	\begin{enumerate}[label=\Roman*]
 		\item	Estar matriculado no Programa há pelo menos 24 meses;
 		\item	Ter completado pelo menos 36 créditos, dois dos quais em Trabalho Individual;
 		\item	Ter tido uma Proposta de Tese de Doutorado aprovada;
@@ -391,8 +407,9 @@
 		\item	Ter produção científica no tema da Tese de Doutorado, desenvolvida durante o Doutorado, conforme estabelecido em Resolução específica pelo Colegiado.
 	\end{enumerate}
 	\begin{enumerate}
-		\item Créditos de Trabalhos Individuais não podem ser reaproveitados ou revalidados.
+		\singleitem Créditos de Trabalhos Individuais não podem ser reaproveitados ou revalidados.
 	\end{enumerate}
+
 	\item  Será exigida dos doutorandos proficiência, comprovada por entidade reconhecida pelo Programa, em Língua Inglesa e em outra língua dentre um elenco indicado pelo Colegiado.
 	\item  O aluno deverá ser aprovado em um Exame de Qualificação, que avaliará os conhecimentos do aluno nas áreas necessárias à Tese, em prazo e formato definidos pelo Colegiado através de Resolução própria;
 	\begin{enumerate}
@@ -421,7 +438,7 @@
 
 	\item Compete ao Colegiado do Programa homologar a decisão da Banca Examinadora, após parecer do Orientador sobre o atendimento das correções solicitadas na Ata de Defesa.
 	\begin{enumerate}
-		\item A Ata de Defesa deverá conter as alterações obrigatórias a serem feitas na Dissertação, bem como o prazo para a realização das mesmas, e as assinaturas de todos os membros da Banca Examinadora.
+		\singleitem A Ata de Defesa deverá conter as alterações obrigatórias a serem feitas na Dissertação, bem como o prazo para a realização das mesmas, e as assinaturas de todos os membros da Banca Examinadora.
 	\end{enumerate}
 	\item Após a Defesa, e dentro dos prazos especificados na Ata de Defesa, o aluno deverá encaminhar à Secretaria do Programa, para homologação, um exemplar impresso da Dissertação ou Tese corrigida e três cópias em CD. Estas cópias são destinadas à biblioteca do Programa, para Pró-Reitoria de Pesquisa e Pós-Graduação e para o próprio Programa. O material entregue deverá ser acompanhado de aprovação por escrito do Orientador ou do membro indicado da Banca Examinadora na própria Ata de Defesa, conforme o caso.
 
@@ -440,7 +457,7 @@
 	\end{enumerate}
 	\item O Representante Discente é responsável por realizar o processo de votação para indicação seu sucessor e seu respectivo suplente.
 	\begin{enumerate}
-		\item Na ausência, por qualquer motivo, de representação discente, cabe ao Colegiado realizar o processo de votação para escolha do Representante Discente e seu suplente.
+		\singleitem Na ausência, por qualquer motivo, de representação discente, cabe ao Colegiado realizar o processo de votação para escolha do Representante Discente e seu suplente.
 	\end{enumerate}
 \end{enumerate}
 
@@ -450,7 +467,7 @@
 	\item As decisões ad referendum deverão ser submetidas à homologação do Colegiado em reunião subseqüente, obedecidos seus prazos normais de ocorrência.
 	\item Os casos omissos neste Regimento serão resolvidos pelo Colegiado, respeitando o Regimento Geral dos Cursos de Pós-Graduação Stricto Sensu.
 	\begin{enumerate}
-		\item O Regimento Geral de Cursos de Pós-Graduação Stricto Sensu e ao Regimento Geral da Pró-Reitoria de Pesquisa e Pós-Graduação devem ser consultados para casos omissos ao presente Regimento. 
+		\singleitem O Regimento Geral de Cursos de Pós-Graduação Stricto Sensu e ao Regimento Geral da Pró-Reitoria de Pesquisa e Pós-Graduação devem ser consultados para casos omissos ao presente Regimento. 
 	\end{enumerate}
 	\item  O presente regimento passará a vigorar a partir de sua aprovação pelo Conselho Coordenador de Ensino, Pesquisa e Extensão desta Instituição.
 
