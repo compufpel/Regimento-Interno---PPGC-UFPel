@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.4)  29 MAY 2015 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.9.4)  26 JUN 2015 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -316,77 +316,101 @@ Overfull \hbox (7.08392pt too wide) in paragraph at lines 92--93
  Carga Hor^^Saria
  []
 
-[3] [4] [5] [6] [7] [8] [9]
-Overfull \hbox (0.74947pt too wide) in paragraph at lines 285--287
+
+Overfull \hbox (4.6662pt too wide) in paragraph at lines 103--104
+[]\OT1/cmr/m/n/10 Instalar an-ual-mente ou por ocasi~ao da avalia^^Xc~ao da CAP
+ES um Comit^e
+ []
+
+[3] [4]
+Overfull \hbox (1.44505pt too wide) in paragraph at lines 158--159
+\OT1/cmr/m/n/10 tribuindo para o de-sen-volvi-mento das ativi-dades acad^emico-
+cient^^S^^Pficas
+ []
+
+
+Overfull \hbox (3.66718pt too wide) in paragraph at lines 167--168
+[]\OT1/cmr/m/n/10 Atuar como Ori-en-ta-dor ou Co-orientador em Dis-serta^^Xc~oe
+s de Mestrado
+ []
+
+[5]
+Overfull \hbox (12.9312pt too wide) in paragraph at lines 198--200
+[]\OT1/cmr/m/n/10 Durante tr^es anos con-sec-u-tivos, n~ao atin-gir a Meta M^^S
+^^Pnima de Produ^^Xc~ao
+ []
+
+[6] [7] [8] [9]
+Overfull \hbox (0.74947pt too wide) in paragraph at lines 311--313
 []\OT1/cmr/m/n/10 O aproveita-mento do aluno em cada dis-ci-plina ser^^Sa ex-pr
 esso pe-los seguintes
  []
 
 [10]
-Overfull \hbox (0.22285pt too wide) in paragraph at lines 306--307
+Overfull \hbox (0.22285pt too wide) in paragraph at lines 332--333
 \OT1/cmr/m/n/10 mento en-quanto outro con-ceito n~ao for atribu^^S^^Pdo ^^Ra di
 s-ci-plina repetida. 
  []
 
 
-Overfull \hbox (5.02834pt too wide) in paragraph at lines 312--313
+Overfull \hbox (5.02834pt too wide) in paragraph at lines 338--339
 []\OT1/cmr/m/n/10 Obtiver co-e-fi-ciente de rendi-mento in-fe-rior a 2,0 no seu
  primeiro per^^S^^Podo
  []
 
-
-Overfull \hbox (5.49957pt too wide) in paragraph at lines 335--337
+[11]
+Overfull \hbox (5.49957pt too wide) in paragraph at lines 361--363
 []\OT1/cmr/m/n/10 A per-man^encia m^^S^^Pnima e m^^Saxima dos mes-tran-dos no P
 ro-grama de Mestrado
  []
 
-[11]
-Overfull \hbox (7.47273pt too wide) in paragraph at lines 337--338
+
+Overfull \hbox (7.47273pt too wide) in paragraph at lines 363--364
 \OT1/cmr/m/n/10 ser pror-ro-ga-dos ex-cep-cional-mente por at^^Se seis meses, p
 or re-comenda^^Xc~ao
  []
 
-
-Overfull \hbox (3.16624pt too wide) in paragraph at lines 363--365
+[12]
+Overfull \hbox (3.16624pt too wide) in paragraph at lines 389--391
 []\OT1/cmr/m/n/10 O Semin^^Sario de An-da-mento ser^^Sa avali-ado pelo Comit^e 
 de Acom-pan-hamento
  []
 
-[12]
-Overfull \hbox (7.47273pt too wide) in paragraph at lines 378--379
+
+Overfull \hbox (7.47273pt too wide) in paragraph at lines 404--405
 \OT1/cmr/m/n/10 ser pror-ro-ga-dos ex-cep-cional-mente por at^^Se seis meses, p
 or re-comenda^^Xc~ao
  []
 
-
-Overfull \hbox (17.0839pt too wide) in paragraph at lines 386--387
+[13]
+Overfull \hbox (17.0839pt too wide) in paragraph at lines 412--413
 []\OT1/cmr/m/n/10 Ter sido aprovado em um Semin^^Sario de An-da-mento de Tese d
 e Doutorado; 
  []
 
 
-Overfull \hbox (21.94511pt too wide) in paragraph at lines 393--394
+Overfull \hbox (21.94511pt too wide) in paragraph at lines 419--420
 []\OT1/cmr/m/n/10 Cr^^Seditos de Tra-bal-hos In-di-vid-u-ais n~ao po-dem ser re
 aproveita-
  []
 
-[13] [14] [15] [16] (./Regimento_PPGC.aux) ) 
+[14] [15] [16] (./Regimento_PPGC.aux) ) 
 Here is how much of TeX's memory you used:
- 1019 strings out of 493117
- 13045 string characters out of 6135434
+ 1021 strings out of 493117
+ 13071 string characters out of 6135434
  73466 words of memory out of 5000000
- 4531 multiletter control sequences out of 15000+600000
+ 4533 multiletter control sequences out of 15000+600000
  6976 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  23i,6n,28p,574b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Regimento_PPGC.pdf (16 pages, 102577 bytes).
+</usr/local/texlive/2014/texmf-dist/font
+s/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb>
+Output written on Regimento_PPGC.pdf (16 pages, 103468 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
